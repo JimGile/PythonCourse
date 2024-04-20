@@ -1,10 +1,11 @@
 import random
 
 choices = ['rock', 'paper', 'scissors']
+
+user_choice = input('Do you want rock, paper, or scissors?\n')
 comp_choice = random.choice(choices)
 print('Computer choice: ', comp_choice)
 
-user_choice = input('Do you want rock, papare, or scissors?\n')
 if user_choice not in choices:
     print('Cheater!!!')
 else:
